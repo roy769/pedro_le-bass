@@ -20,6 +20,6 @@ $(".fish-image").on("click", function() {
 
 window.onload = flipIt();
 
-// $('.materialboxed').materialbox();
+$('.materialboxed').materialbox();
 
 });
