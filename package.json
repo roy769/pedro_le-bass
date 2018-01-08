@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/roy769/pedro_le-bass/issues"
   },
-  "homepage": "https://github.com/roy769/pedro_le-bass#readme"
+  "homepage": "https://github.com/roy769/pedro_le-bass#readme",
+  "dependencies": {
+    "materialize-css": "^0.100.2"
+  }
 }
