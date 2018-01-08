@@ -21,6 +21,12 @@
 .content{
   border: 1px solid #B5A4A4;
 }
+.margin{
+  margin-top: 1%;
+}
+.esrey{
+  margin-bottom: 1%;
+}
  .fish-image{
    z-index: -.1;
    position: relative;
