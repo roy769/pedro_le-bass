@@ -23,11 +23,11 @@
  }
  .webLink{
    mix-blend-mode: multiply;
-   border: 1px solid #B5A4A4;
+   border: 2px solid #B5A4A4;
 
  }
  .webLinkTwo{
-   mix-blend-mode: multiply;
+   mix-blend-mode: color-burn;
  }
  .font-color{
    color: grey;
