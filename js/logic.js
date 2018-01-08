@@ -1,6 +1,6 @@
 var norm = "<img src='https://farm5.staticflickr.com/4680/39484349861_0d7dd5d849.jpg'/>";
 var invert = "<img src='https://farm5.staticflickr.com/4687/39484361331_7172a5a898.jpg'/>";
-
+$(document).ready(function(){
 function flipIt(result) {
   var randomNumber = Math.floor(Math.random()*2);
 
@@ -17,4 +17,9 @@ function flipIt(result) {
 $(".fish-image").on("click", function() {
   flipIt()
 }),
+
 window.onload = flipIt();
+
+// $('.materialboxed').materialbox();
+
+});

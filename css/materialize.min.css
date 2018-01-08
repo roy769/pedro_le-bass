@@ -18,7 +18,9 @@
  .background-color-three{
    background-color: #ffebee;
  }
-
+.content{
+  border: 1px solid #B5A4A4;
+}
  .fish-image{
    z-index: -.1;
    position: relative;
