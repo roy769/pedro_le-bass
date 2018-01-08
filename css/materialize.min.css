@@ -3,6 +3,12 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+ *{
+   box-sizing: border-box;
+ }
+ img{margin-left: -5px;
+   align-items: center;
+ }
  .background-color-one{
    background-color: #f9fbe7;
  }
@@ -12,9 +18,7 @@
  .background-color-three{
    background-color: #ffebee;
  }
- .content{
-   z-index: .1;
- }
+
  .fish-image{
    z-index: -.1;
    position: relative;
@@ -27,7 +31,7 @@
 
  }
  .webLinkTwo{
-   mix-blend-mode: color-burn;
+   mix-blend-mode: darken;
  }
  .font-color{
    color: grey;
