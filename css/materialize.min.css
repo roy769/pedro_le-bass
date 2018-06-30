@@ -15,11 +15,18 @@
  .background-color-two{
    background-color: #e8eaf6;
  }
+ .tap-me{
+   mix-blend-mode: soft-light;
+ }
  .background-color-three{
    background-color: #ffebee;
  }
+ .background-color-four{
+   background-color: #000;
+   opacity: .2
+ }
 .content{
-  border: 1px solid #B5A4A4;
+  border:0px solid #B5A4A4;
 }
 .margin{
   margin-top: 1%;
@@ -28,10 +35,9 @@
   margin-bottom: 1%;
 }
  .fish-image{
-   z-index: -.1;
    position: relative;
-   opacity: .6;
-   mix-blend-mode: overlay;
+   opacity: .7;
+   mix-blend-mode: multiply;
  }
  .webLink{
    mix-blend-mode: multiply;
@@ -47,9 +53,20 @@
  .padding{
   padding: 1%;
  }
+ .pedroSpinning {
+   max-width: 100%;
+   height: auto;
+ }
  .font{
    text-align: center;
    font-family: monospace;
+ }
+ .Montserrat {
+   font-family: 'Montserrat', bold;
+ }
+ .map {
+   max-width: 100%;
+   height: auto;
  }
  .margin-right{
    margin-right: 1%;
