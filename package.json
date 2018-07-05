@@ -1,7 +1,7 @@
 {
   "name": "pedro_le-bass",
   "version": "1.0.0",
-  "description": "",
+  "description": "Landing page for Dj Pedro le Bass utilizing materilize-css. Basic logic flipping of a png and plug-in like materialized-box and waves-effect.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/roy769/pedro_le-bass#readme",
   "dependencies": {
-    "materialize-css": "^0.100.2"
-  }
+    "express": "^4.16.3",
+    "materialize-css": "^0.100.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
 }
